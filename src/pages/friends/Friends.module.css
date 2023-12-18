@@ -1,0 +1,14 @@
+.Friends_Per{
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+.Friends_Per h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+.Friends_description {
+  font-size: 1rem;
+  color: white;
+  text-align: justify;
+}

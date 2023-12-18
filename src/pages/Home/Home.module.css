@@ -1,0 +1,13 @@
+.images_div{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 15px;
+}
+.images {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    margin: 5px; 
+  }
+  
