@@ -51,7 +51,7 @@ const AboutMe = () => {
           {div}
         </div>
       ))}
-      <div className="pagination">
+      <div className={styles.pagination}>
         {Array.from({ length: totalPages }, (_, index) => (
           <button
             key={index + 1}
