@@ -8,15 +8,16 @@
   }
   
   .about_me h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
   }
   
   .about_description {
     font-size: 1rem;
-    line-height: 1.9;
     color: rgb(255, 255, 255);
+    text-align: justify;
+    word-spacing: normal;
+
   }
   .pagination {
     font-size: 3rem;
