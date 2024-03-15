@@ -10,6 +10,23 @@
   .footer{
     width: 100%;
   }
+  .faFacebook{
+    color: #3b5998;
+    font-size: 1.2em; 
+    margin: 10px;
+
+  }
+  .faInstagram{
+    color: #e1306c;
+      font-size: 1.2em; 
+      margin: 10px;
+  }
+  .faGoogle{
+    font-size: 1.2em; 
+    margin: 10px;
+    color: #007bff;
+  }
+
   @media (max-width: 950px){
     .footer_icons{
       padding-top: 70px;
