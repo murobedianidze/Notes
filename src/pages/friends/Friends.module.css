@@ -10,7 +10,8 @@
   color: white;
 }
 .Friends_description {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
   color: white;
   text-align: justify;
   word-spacing: normal;

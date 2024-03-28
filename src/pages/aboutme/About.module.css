@@ -13,10 +13,11 @@
   }
   
   .about_description {
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    word-spacing: normal;
+    font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  text-align: justify;
+  word-spacing: normal;
 
   }
   .pagination {
