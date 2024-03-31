@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Notes/static/css/main.6696441b.css",
+    "main.css": "/Notes/static/css/main.e0cfef5e.css",
     "main.js": "/Notes/static/js/main.60215455.js",
     "static/media/six.jpeg": "/Notes/static/media/six.d140f60dc561ff1a320b.jpeg",
     "static/media/four.JPG": "/Notes/static/media/four.638b87f7b755d63d5a75.JPG",
@@ -9,6 +9,7 @@
     "static/media/eighteen.JPG": "/Notes/static/media/eighteen.264e9767304191d37fb1.JPG",
     "static/media/seventeen.JPG": "/Notes/static/media/seventeen.a88acbdc30643f14ed54.JPG",
     "static/media/five.jpg": "/Notes/static/media/five.c088ef076e5946f17f18.jpg",
+    "static/media/background1.png": "/Notes/static/media/background1.2262abc4517abdde1e1f.png",
     "static/media/twelve.JPG": "/Notes/static/media/twelve.f8cfdedc046d44593ea7.JPG",
     "static/media/eleven.jpg": "/Notes/static/media/eleven.68af9c6b58f1e0e9f388.jpg",
     "static/media/eight.JPG": "/Notes/static/media/eight.4df41709cdd68aa8c9b3.JPG",
@@ -21,11 +22,11 @@
     "static/media/twenty.JPG": "/Notes/static/media/twenty.034fda549fcdf48163e5.JPG",
     "static/media/three.JPG": "/Notes/static/media/three.25739c480c924e4ce29d.JPG",
     "index.html": "/Notes/index.html",
-    "main.6696441b.css.map": "/Notes/static/css/main.6696441b.css.map",
+    "main.e0cfef5e.css.map": "/Notes/static/css/main.e0cfef5e.css.map",
     "main.60215455.js.map": "/Notes/static/js/main.60215455.js.map"
   },
   "entrypoints": [
-    "static/css/main.6696441b.css",
+    "static/css/main.e0cfef5e.css",
     "static/js/main.60215455.js"
   ]
 }
