@@ -434,16 +434,17 @@ const AboutMe = () => {
   return (
     <div>
       {currentDivs.map((div, index) => (
-        <div key={index} className="content">
+        <div key={index} className={styles.content}>
           {div}
         </div>
       ))}
+  
       <div className={styles.pagination}>
         {Array.from({ length: totalPages }, (_, index) => (
           <button
             key={index + 1}
             onClick={() => handlePageChange(index + 1)}
-            className={currentPage === index + 1 ? "active" : ""}
+            className={currentPage === index + 1 ? styles.active : ""}
           >
             {index + 1}
           </button>

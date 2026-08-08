@@ -1,18 +1,109 @@
-.Friends_Per{
+/* .Friends_Per{
+  max-width: 750px;
   margin: 0 auto;
   padding: 20px;
-  /* border-radius: 8px; */
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-  text-align: justify;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .Friends_Per h2 {
   font-size: 1.5rem;
   color: white;
 }
 .Friends_description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
-  color: white;
-  text-align: justify;
-  word-spacing: normal;
+  color: #e2e8f0; 
+  line-height: 1.7; 
+  text-align: left;
+}
+ */
+
+ .Friends_Per {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: left;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Friends_Per h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 8px;
+}
+
+.Friends_description {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #e2e8f0;
+  line-height: 1.75;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+/* მობილურის ადაპტაცია */
+@media (max-width: 600px) {
+  .Friends_Per {
+    margin: 20px 12px;
+    padding: 16px;
+  }
+
+  .Friends_Per h2 {
+    font-size: 1.35rem;
+  }
+
+  .Friends_description {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+}
+/* ღილაკების კონტეინერი */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px; /* ღილაკებს შორის დაშორება */
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+/* თითოეული ღილაკი */
+.pagination button {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* მაუსის მიტანისას (Hover ეფექტი) */
+.pagination button:hover {
+  background: rgba(56, 189, 248, 0.25); /* ლურჯი ნათება */
+  border-color: #38bdf8;
+  transform: translateY(-2px); /* ოდნავ მაღლა აწევა */
+  box-shadow: 0 6px 15px rgba(56, 189, 248, 0.3);
+}
+
+/* აქტიური გვერდის ღილაკი */
+.pagination button.active,
+.pagination button[data-active="true"] {
+  background: #38bdf8;
+  color: #0f172a; /* მუქი ტექსტი უკეთესი კონტრასტისთვის */
+  border-color: #38bdf8;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.6); /* გამოკვეთილი ნათება */
 }

@@ -1,4 +1,4 @@
-.footer_icons{
+/* .footer_icons{
     display: flex;
     justify-content: space-around;
     padding: 0 10px;
@@ -40,4 +40,62 @@
       gap: 25%;
       font-size: 0.8rem;
     }
-  }
+  } */
+
+  /* კონტეინერი */
+.social_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; /* გავზარდეთ დაშორება იკონებს შორის */
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* იკონის წრიული ღილაკი - გაზრდილი ზომით */
+.social_icon {
+  width: 58px; /* 48px-ის ნაცვლად 58px */
+  height: 58px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); /* რბილი, ზამბარისებრი ანიმაცია */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+/* შიდა იკონის/სურათის ზომა */
+.social_icon img,
+.social_icon svg {
+  width: 30px; /* 24px-ის ნაცვლად 30px */
+  height: 30px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* საერთო Hover ეფექტი */
+.social_icon:hover {
+  transform: translateY(-6px) scale(1.12); /* ეფექტური წამოწევა მაღლა */
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ინდივიდუალური ბრენდული ნათებები მაუსის მიტანისას */
+.social_icon.facebook:hover {
+  border-color: #1877f2;
+  box-shadow: 0 10px 25px rgba(24, 119, 242, 0.5);
+}
+
+.social_icon.instagram:hover {
+  border-color: #e4405f;
+  box-shadow: 0 10px 25px rgba(228, 64, 95, 0.5);
+}
+
+.social_icon.google:hover {
+  border-color: #ea4335;
+  box-shadow: 0 10px 25px rgba(234, 67, 53, 0.5);
+}
