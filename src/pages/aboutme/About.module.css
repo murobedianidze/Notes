@@ -55,9 +55,9 @@
   max-width: 750px;
   margin: 40px auto;
   padding: 24px;
-  text-align: left; 
+  text-align: justify; /* <-- left-ის ნაცვლად ჩაიწერა justify */
   border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.4); 
+  background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
 }
 
@@ -68,14 +68,13 @@
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 8px;
+  text-align: left; /* სათაური რომ მარცხნივ დარჩეს */
 }
 
 .about_description {
   font-size: 1.1rem;
   font-weight: 300;
-  color: #e2e8f0; 
-  line-height: 1.75; 
-  margin-bottom: 1.5rem;
+  line-height: 1.6; /* სტრიქონებს შორის დაშორება უკეთესი კითხვადობისთვის */
 }
 
 /* მობილური ეკრანების ოპტიმიზაცია (Media Query) */

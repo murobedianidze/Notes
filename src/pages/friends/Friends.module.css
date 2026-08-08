@@ -23,7 +23,7 @@
   max-width: 750px;
   margin: 40px auto;
   padding: 24px;
-  text-align: left;
+  text-align: justify; /* დესკტოპზე ტექსტის ორივე მხარეს თანაბრად გასწორება */
   border-radius: 12px;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
@@ -37,6 +37,7 @@
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 8px;
+  text-align: left; /* სათაური რომ მარცხნივ დარჩეს */
 }
 
 .Friends_description {
@@ -44,7 +45,7 @@
   font-weight: 300;
   color: #e2e8f0;
   line-height: 1.75;
-  text-align: left;
+  text-align: inherit; /* იღებს .Friends_Per-ის justify სტილს */
   margin-bottom: 1.5rem;
 }
 
@@ -53,6 +54,7 @@
   .Friends_Per {
     margin: 20px 12px;
     padding: 16px;
+    text-align: left; /* მობილურზე left, რომ სიტყვებს შორის დიდი დაშორებები არ დარჩეს */
   }
 
   .Friends_Per h2 {
@@ -62,6 +64,8 @@
   .Friends_description {
     font-size: 1rem;
     line-height: 1.65;
+    text-align: left;
+    word-break: break-word; /* გრძელი სიტყვები ეკრანს რომ არ გაცდეს */
   }
 }
 /* ღილაკების კონტეინერი */
