@@ -128,7 +128,7 @@ const Home = () => {
           </>
         )}
       </div>
-      <button onClick={toggleImageSet}>შეცვალე ფოტოები</button>
+      <button className={styles.change_btn} onClick={toggleImageSet} >შეცვალე ფოტოები</button>
     </div>
   );
 };

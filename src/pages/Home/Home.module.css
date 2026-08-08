@@ -38,3 +38,44 @@ gap: 15px;
     transform: translateY(-12px) scale(1.02);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
   }
+
+  /* ღილაკის მოდერნული სტილი */
+.change_btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.change_btn:hover {
+  background: rgba(56, 189, 248, 0.25); /* ლურჯი ნათება */
+  border-color: #38bdf8;
+  transform: translateY(-3px); /* ოდნავ წამოწევა */
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
+}
+
+.change_btn:active {
+  transform: translateY(-1px);
+}
+
+/* ფოტოების (images) ვიზუალის გაუმჯობესება */
+.images {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images:hover {
+  transform: scale(1.02); /* მაუსის მიტანისას ოდნავ გაიდიდება */
+  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.25);
+}
