@@ -2,7 +2,7 @@ import React, { useState }  from "react";
 import styles from "../Home/Home.module.css";
 import onejpg from "../Home/images/one.jpg";
 import twojpg from "../Home/images/two.jpg";
-import threejpg from "../Home/images/three.jpg";
+import threejpg from "../Home/images/three.JPG";
 import fourjpg from "../Home/images/four.jpg";
 import fivejpg from "../Home/images/five.jpg";
 import sixjpg from "../Home/images/six.jpg";
