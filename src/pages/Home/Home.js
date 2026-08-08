@@ -13,10 +13,10 @@ import tenjpg from "../Home/images/ten.jpg";
 import elevenjpg from "../Home/images/eleven.jpg";
 import twelvejpg from "../Home/images/twelve.JPG";
 import thirteenjpg from "../Home/images/thirteen.jpg";
-import fourteenjpg from "../Home/images/fourtheen.jpg";
+import fourteenjpg from "../Home/images/fourteen.jpg";
 import fifteenjpg from "../Home/images/fifteen.jpg";
 import sixteenjpg from "../Home/images/sixteen.jpg";
-import seventeenjpg from "../Home/images/seventeen.JPG";
+import seventeenjpg from "../Home/images/seventeen.jpg";
 import eighteenjpg from "../Home/images/eighteen.jpg";
 
 const Home = () => {
